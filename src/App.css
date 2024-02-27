@@ -1,0 +1,9 @@
+#background {
+    background-image: url("./assets/pexels-gdtography-950241.jpg");
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+}
