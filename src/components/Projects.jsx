@@ -1,7 +1,7 @@
 export default function Projects() {
     return (
         <div>
-            <h3>Here are some projects I've worked on so far:</h3>
+            <h3 className="subtitle">Here are some projects I've worked on so far:</h3>
             <ul>
                 <li>
                     <a href="https://eagersidekick.github.io/Traffic_Jam/">Traffic Jam</a>
