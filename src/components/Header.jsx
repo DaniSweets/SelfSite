@@ -1,8 +1,10 @@
-export default function Header () {
-    <header className="navbar">
-        <div className="navbar-brand">
-            <div className="navbar-item">ME</div>
-        </div>
-        <div className="navbar-end">YOU</div>
+import Languages from "./Languages"
+
+export default function Header() {
+    return (
+    <header className="section has-text-centered">
+        <p className="title">Dani Sweetwood</p>
+        <Languages />
     </header>
+    )
 }

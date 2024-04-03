@@ -1,10 +1,16 @@
-import React from 'react';
-import 'bulma/css/bulma.min.css';
-import '../App.css';
+import Resume from './Resume'
 
-export default function Footer () {
-    <footer className="has-text-centered">
-        <p className="subtitle">FOOTER STUFF</p>
-        <a href="https://www.linkedin.com/in/dani-sweetwood/"><ion-icon name="logo-linkedin"></ion-icon></a>
-    </footer>
+export default function Footer() {
+    return (
+        <footer className="footer is-flex is-justify-content-space-around">
+                    <a href="https://github.com/DaniSweets" className='title m-3'>
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dani-sweetwood/" className='title m-3'>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+
+                    <a href='/Dani Sweetwood.pdf' className='title m-3'><ion-icon name="document-attach-outline"></ion-icon></a>
+        </footer>
+    )
 }

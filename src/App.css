@@ -8,9 +8,6 @@
     bottom: 0;
 }
 
-.icon {
-    padding-left: 10px;
-    width: 35px;
-    height: 35px;
-    vertical-align: middle;
+.title {
+    font-family: Georgia, serif;
 }
