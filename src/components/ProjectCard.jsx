@@ -19,4 +19,4 @@ export default function ProjectCard({props}){
                         </footer>
                     </div>
     )
-};
+}

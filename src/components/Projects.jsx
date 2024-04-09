@@ -23,8 +23,16 @@ export default function Projects() {
         site:"https://campaign-manager.onrender.com/"
     }
 
+    var selfSite = {
+        title: 'This Website',
+        description: "This application uses React to show all my info with a sleek and minimalistic design.",
+        repo: "https://github.com/DaniSweets/SelfSite",
+        site: ""
+
+    }
+
     return (
-        <div className="section">
+        <div className="section mb-4">
             <div className="columns">
                 <div className="column">
                     <ProjectCard props={trafficJam}/>
@@ -32,8 +40,9 @@ export default function Projects() {
                 </div>
                 <div className="column">
                     <ProjectCard props={campaignManager}/>
+                    <ProjectCard props={selfSite}/>
                 </div>
             </div>
         </div>
     )
-};
+}
