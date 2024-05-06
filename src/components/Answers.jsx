@@ -1,6 +1,6 @@
 export default function Answers() {
 
-    let questionsWithAnswers = [
+    const questionsWithAnswers = [
         {
             question: "Are you currently employed?",
             answer: "I am not currently employed."
@@ -64,15 +64,21 @@ export default function Answers() {
     ]
 
     return (
-        <section>
-            <div className="card">
-                <header className="card-header">
-                    <p className="card-header-title"></p>
-                </header>
-                <article className="card-content">
-                    <p></p>
-                </article>
-            </div>
-        </section>
+        <div>
+            {questionsWithAnswers.map(function (props) {
+                return (
+                    <section className="m-4">
+                        <div className="card">
+                            <header className="card-header">
+                                <p className="card-header-title">{props.question}</p>
+                            </header>
+                            <article className="card-content">
+                                <p>{props.answer}</p>
+                            </article>
+                        </div>
+                    </section>
+                )
+            })}
+        </div>
     )
 }
