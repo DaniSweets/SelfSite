@@ -27,7 +27,7 @@ export default function Projects() {
         title: 'This Website',
         description: "This application uses React to show all my info with a sleek and minimalistic design.",
         repo: "https://github.com/DaniSweets/SelfSite",
-        site: ""
+        site: "https://danisweetwood.com"
 
     }
 
