@@ -14,7 +14,7 @@ export default function ProjectCard({props}){
                                 <ion-icon className='icon' name="logo-github"></ion-icon>
                             </a>
                             <a href={props.site} className="card-footer-item">
-                                <ion-icon name="open-outline"></ion-icon>
+                                <ion-icon name="earth-outline"></ion-icon>
                             </a>
                         </footer>
                     </div>

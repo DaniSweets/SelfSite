@@ -10,7 +10,7 @@ import Answers from './components/Answers';
 
 function App() {
   return (
-    <div>
+    <div id='background'>
       <BrowserRouter>
       <Header />
       <Routes>

@@ -1,13 +1,23 @@
 #background {
-    background-image: url("./assets/pexels-gdtography-950241.jpg");
+    /* background-image: url("./assets/pexels-suzyhazelwood-2445890.jpg"); */
+    background-image: url("./assets/pexels-holodna-17436220.jpg");
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    position: fixed;
+    background-size: cover;
+    background-position: center center;
+    /* position: fixed; */
     z-index: -1;
     bottom: 0;
 }
 
 .title {
     font-family: Georgia, serif;
+}
+
+.card {
+    opacity: 0.88;
+}
+
+footer {
+    opacity: 0.88;
 }

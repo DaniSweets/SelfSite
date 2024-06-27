@@ -1,5 +1,4 @@
 import ProjectCard from "./ProjectCard"
-import AboutMe from "./AboutMe"
 
 export default function Projects() {
 
@@ -34,9 +33,6 @@ export default function Projects() {
 
     return (
         <div className="section mb-4">
-
-            <AboutMe />
-
             <div className="columns">
                 <div className="column">
                     <ProjectCard props={trafficJam}/>
