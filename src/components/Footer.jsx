@@ -7,7 +7,7 @@ export default function Footer() {
             <a href="https://www.linkedin.com/in/dani-sweetwood/" className='title m-3'>
                 <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-            <a href='/DaniSweetwood.pdf' className='title m-3'>
+            <a href='/Dani Sweetwood.pdf' className='title m-3'>
                 <ion-icon name="document-attach-outline"></ion-icon>
             </a>
         </footer>
